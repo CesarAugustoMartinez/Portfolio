@@ -1,8 +1,8 @@
 # Portfolio
 
-![picture](images/Readme/PortfolioIndex.png)
+![picture](assets/images/Readme/PortfolioIndex.png)
 
-Link : [Project Link](https://cesaraugustomartinez.github.io/Homework_2/)
+Link : [Project Link](https://cesaraugustomartinez.github.io/Portfolio/)
 
 ---
 
@@ -32,7 +32,7 @@ The goal of this project is the use of Bootstrap CSS Framework to create a mobil
 ```html
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 ```
@@ -48,26 +48,26 @@ This web application has three webpages. These have different types of informati
 
 - Navbar
 
-![picture](images/Readme/Navbar.png)
+![picture](assets/images/Readme/Navbar.png)
 
 - Navbar for Small Displays
 
-![picture](images/Readme/NavbarSm.png)
+![picture](assets/images/Readme/NavbarSm.png)
 
 - Footer with social media buttons
 
-![picture](images/Readme/socialMedia.png)
+![picture](assets/images/Readme/socialMedia.png)
 
 - Form
 
-![picture](images/Readme/contactForm.png)
+![picture](assets/images/Readme/contactForm.png)
 
 - Grid System for images
 
-![picture](images/Readme/portfolioPhotos.png)
+![picture](assets/images/Readme/portfolioPhotos.png)
 
 
-[Back To The Top](#Homework_2-CSS-and-Bootstrap)
+[Back To The Top](#Portfolio)
 
 ---
 
@@ -76,7 +76,7 @@ This web application has three webpages. These have different types of informati
 - w3school -- [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/)
 - Bootstrap -- [Grid system](https://getbootstrap.com/docs/4.5/layout/grid/)
 
-[Back To The Top](#Homework_2-CSS-and-Bootstrap)
+[Back To The Top](#Portfolio)
 
 ---
 
@@ -84,7 +84,7 @@ This web application has three webpages. These have different types of informati
 
 Copyright (c) [2020] [Cesar A Martinez]
 
-[Back To The Top](#Homework_2-CSS-and-Bootstrap)
+[Back To The Top](#Portfolio)
 
 ---
 
@@ -93,4 +93,4 @@ Copyright (c) [2020] [Cesar A Martinez]
 - Twitter -- [@cesaguma](https://twitter.com/cesaguma)
 - Linkedin -- [Cesar A Martinez](https://www.linkedin.com/in/cesar-augusto-martinez-auquilla-03934a16b/)
 
-[Back To The Top](#Homework_2-CSS-and-Bootstrap)
+[Back To The Top](#Portfolio)
