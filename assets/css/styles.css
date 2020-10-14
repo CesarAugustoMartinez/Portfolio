@@ -9,7 +9,7 @@ body {
   width: 200px;
   height: 200px;
 }
-  .fa {
+  .icons {
     padding: 10px;
     font-size: 30px;
     width: 30px;
@@ -18,7 +18,7 @@ body {
     border-radius: 50%;
   }
   
-  .fa:hover {
+  .icons:hover {
       opacity: 0.7;
   }
   
@@ -36,4 +36,13 @@ body {
     background: #007bb5;
     color: white;
   }
-  
+  .fa-github {
+    background: black;
+    color: white;
+  }
+
+  .d-block {
+    height: 350px;
+    width: 470px;
+
+  }

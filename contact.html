@@ -9,8 +9,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!-- Modal -->
+  <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="resumeModalLabel">Resume</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+            <iframe src="./assets/docs/resumeAM.pdf" width="100%" height="500px">
+            </iframe>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>                                
+        </div>
+    </div>
+    </div>
+  </div>  
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <span class="navbar-brand mb-1 h1">Cesar Martinez</span>
+        <span class="navbar-brand mb-1 h1">Cesar A. Martinez</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -18,13 +39,18 @@
         <div class="collapse navbar-collapse text-right justify-content-end" id="navbarSupportedContent">
           <ul class="nav navbar-nav navbar-right">
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>            
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home/About</a>
+            </li>
+            <li class="nav-item">
+              <a type="button" class="btn btn-primary nav-link" data-toggle="modal" data-target="#resumeModal">
+                View Resume
+              </a>               
             </li>
           </ul>
         </div>
@@ -65,17 +91,22 @@
         </section>
       </main>
 
-      <footer class="text-light bg-dark fixed-bottom p-2">
+      <footer class="text-light bg-dark fixed-bottom">
         <div class="row text-center">
           <div class="col-md-12">
-            <p>©Copyright</p>           
+            <p class="m-0">©Copyright, 2020 - Cesar A Martinez</p>
+            <p class="m-0">
+              <span>E-mail: <a href="mailto:cesagume@hotmail.com?subject=Mail from Cesar Martinez Web" class="text-warning" target="_blank">cesaguma@hotmail.com</a></span>  
+              <span>Phone: <a href="tel:+12023062469" class="text-warning">+1 (202) 306-2469</a></span> 
+            </p>    
           </div> 
         </div>  
         <div class="row text-center">
           <nav class="col-md-12">
-            <a href="https://www.facebook.com/cesaraugusto.martinezauquilla" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://twitter.com/cesaguma" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/cesar-augusto-martinez-auquilla-03934a16b/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://www.facebook.com/cesaraugusto.martinezauquilla" class="icons fa fa-facebook" target="_blank"></a>
+            <a href="https://twitter.com/cesaguma" class="icons fa fa-twitter" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/cesar-augusto-martinez-auquilla-03934a16b/" class="icons fa fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/CesarAugustoMartinez" class="icons fa fa-github" target="_blank"></a>
           </nav>
         </div>
           
