@@ -52,19 +52,19 @@ This web application has three webpages. These have different types of informati
 
 - Navbar for Small Displays
 
-![picture](assets/images/Readme/NavbarSm.png)
+![picture](assets/images/Readme/NavbarSM.png)
 
 - Footer with social media buttons
 
 ![picture](assets/images/Readme/socialMedia.png)
 
-- Form
+- Contact Form
 
 ![picture](assets/images/Readme/contactForm.png)
 
-- Grid System for images
+- Portfolio Grid System for Projects 
 
-![picture](assets/images/Readme/portfolioPhotos.png)
+![picture](assets/images/Readme/portfolio.png)
 
 
 [Back To The Top](#Portfolio)
