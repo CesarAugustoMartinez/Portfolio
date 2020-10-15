@@ -52,7 +52,7 @@ This web application has three webpages. These have different types of informati
 
 - Navbar for Small Displays
 
-![picture](assets/images/Readme/NavbarSM.png)
+![picture](assets/images/Readme/NavbarSm.png)
 
 - Footer with social media buttons
 
