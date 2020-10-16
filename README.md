@@ -29,6 +29,8 @@ The goal of this project is the use of Bootstrap CSS Framework to create a mobil
 - CSS
 - Bootstrap
 
+Code sample - Html
+
 ```html
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -37,6 +39,36 @@ The goal of this project is the use of Bootstrap CSS Framework to create a mobil
 
 ```
 
+Code sample - JavaScript
+
+```js
+
+$(document).ready(function(){
+    //$('.carousel').carousel()
+    $('.carousel').carousel({
+        interval: 3000
+      })
+  });
+
+```
+
+Code sample - CSS
+
+```css
+
+body {
+    background: url("../images/body-bg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+#imgsize {
+  width: 200px;
+  height: 200px;
+}
+  
+```
 
 ---
 
